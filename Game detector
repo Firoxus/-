@@ -1,9 +1,13 @@
--- // SCP 3007 
+--// Break in
+if game.PlaceId == 4620170611 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/-/main/output-1.lua"))()
+end
+if game.PlaceId == 3851622790 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/-/main/output-1.lua"))()
+end
+
+--// Scp 3008
 if game.PlaceId == 2768379856 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/-/main/Protected.lua"))()
+end
 
--- // BREAK IN
-    if game.PlaceId == 4620170611 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/-/main/output-1.lua"))()        
-end
-end
