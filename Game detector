@@ -11,3 +11,8 @@ if game.PlaceId == 2768379856 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/-/main/Protected.lua"))()
 end
 
+--// Arsenal
+if game.PlaceId == 286090429 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/-/main/Protected%20(5).lua"))()
+end
+
