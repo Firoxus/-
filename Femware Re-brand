@@ -1336,7 +1336,7 @@ if game.PlaceId == 8343259840 then
 
 		CustomS:AddSeperator("Customization")
 
-		CustomS:AddDropdown("Hit Sounds", {"Yamete", "Weh", "Boink", "TF2", "Rust", "CSGO", "Hitmarker"}, "Yamete", false, function(V)
+		CustomS:AddDropdown("Hit Sounds", {"Yamete", "Weh", "Boink", "TF2", "Rust", "CSGO", "Double Weh"}, "Yamete", false, function(V)
 			local SelectedId = nil
 
 			if V == "Boink" then
@@ -1347,8 +1347,8 @@ if game.PlaceId == 8343259840 then
 				SelectedId = 5043539486
 			elseif V == "CSGO" then
 				SelectedId = 8679627751
-			elseif V == "Hitmarker" then
-				SelectedId = 160432334
+			elseif V == "Double Weh" then
+				SelectedId = 9677782300
 			elseif V == "Yamete" then
 				SelectedId = 7418243221
 			elseif V == "Weh" then
