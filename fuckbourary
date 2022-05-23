@@ -11,9 +11,9 @@ pcall(
         game.StarterGui:SetCore(
             "SendNotification",
             {
-                Title = "Bourary Fucker v1",
-                Text = "loading the latest version, please wait.",
-                Duration = 20
+                Title = "Firoxs Universal Crasher",
+                Text = "Go fuck games",
+                Duration = 10
             }
         )
         if not game.Players.LocalPlayer:IsInGroup(4648596) then
@@ -24,12 +24,12 @@ pcall(
                         game.StarterGui:SetCore(
                             "SendNotification",
                             {
-                                Title = "Krop2 is Cool #FuckBourary",
-                                Text = "Fuck DaHood",
+                                Title = "Firox - Ok",
+                                Text = "Yes idk what to put here",
                                 Duration = 10
                             }
                         )
-                        setclipboard("Krop2")
+                        setclipboard("Firox")
                     end
                 )
             )
@@ -43,7 +43,7 @@ sound.SoundId = "rbxassetid://7418243221"
 sound.Parent = game:GetService("SoundService")
 sound:Play()
 
-local screenGui = game:GetObjects("rbxassetid://9688990473")[1]
+local screenGui = game:GetObjects("rbxassetid://9709057256")[1]
 local mainFrame = screenGui.Frame
 local pages = mainFrame.Pages
 local pageLayout = pages.UIPageLayout
