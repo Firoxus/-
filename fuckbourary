@@ -12,7 +12,7 @@ pcall(
             "SendNotification",
             {
                 Title = "Firoxs Universal Crasher",
-                Text = "Go fuck games",
+                Text = "No idea what to put here",
                 Duration = 10
             }
         )
@@ -24,12 +24,12 @@ pcall(
                         game.StarterGui:SetCore(
                             "SendNotification",
                             {
-                                Title = "Firox - Ok",
+                                Title = "Hm",
                                 Text = "Yes idk what to put here",
                                 Duration = 10
                             }
                         )
-                        setclipboard("Firox")
+                        
                     end
                 )
             )
@@ -38,12 +38,8 @@ pcall(
 )
 
 wait(0)
-local sound = Instance.new("Sound")
-sound.SoundId = "rbxassetid://7418243221"
-sound.Parent = game:GetService("SoundService")
-sound:Play()
 
-local screenGui = game:GetObjects("rbxassetid://9688990473")[1]
+local screenGui = game:GetObjects("rbxassetid://9724696682")[1]
 local mainFrame = screenGui.Frame
 local pages = mainFrame.Pages
 local pageLayout = pages.UIPageLayout
