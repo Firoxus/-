@@ -6,9 +6,14 @@ if game.PlaceId == 3851622790 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/-/main/output-1.lua"))()
 end
 
+--// Plates of fate 
+if game.PlaceId == 4783966408 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/-/main/Protected%20(3).lua"))()
+end
+
 --// Scp 3008
 if game.PlaceId == 2768379856 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/-/main/Protected.lua"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/-/main/Protected.lua"))()
 end
 
 --// Arsenal
