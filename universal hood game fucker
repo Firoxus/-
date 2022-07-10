@@ -1,0 +1,39 @@
+
+
+
+local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/fluxlib.txt")()
+
+local win = Flux:Window("Firehook", "universal fucker $$$", Color3.fromRGB(125, 249, 255), Enum.KeyCode.B)
+
+local Main = win:Tab("ProximityPrompt", "http://www.roblox.com/asset/?id=6023426915")
+
+Main:Toggle("Loop Fire proximitypromts", "Fires every near ProximityPrompts", false, function(State)
+_G.FirePP = State
+game:GetService("RunService").Stepped:connect(function()
+if _G.FirePP then
+       for i, v in pairs(game:GetService("Workspace"):GetDescendants()) do
+                   if v:FindFirstChild("ProximityPrompt") then
+                       fireproximityprompt(v.ProximityPrompt)
+           end
+       end
+   end
+end)
+end)
+
+Main:Button("Fire a proximity promt Once", "Fires the ProximityPrompt once", function()
+       for i, v in pairs(game:GetService("Workspace"):GetDescendants()) do
+                   if v:FindFirstChild("ProximityPrompt") then
+                       fireproximityprompt(v.ProximityPrompt)
+           end
+       end
+end)
+
+Main:Button("Fire all clickdetectors", "Fires all clickdetectors", function()
+for i,v in pairs(game:GetDescendants()) do
+      if v:IsA("ClickDetector") then
+          fireclickdetector(v)
+      end
+  end
+end)
+
+FluxLib:Notification("Note: It will only fire if you are Near the ProximityPrompt!", "Alright")
