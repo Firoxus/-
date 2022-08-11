@@ -21,3 +21,7 @@ if game.PlaceId == 286090429 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/-/main/Protected%20(5).lua"))()
 end
 
+--// Hood customs
+if game.PlaceId == 9825515356 then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/-/main/hood%20customs"))()
+end
