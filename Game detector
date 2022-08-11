@@ -8,7 +8,7 @@ end
 
 --// Plates of fate 
 if game.PlaceId == 4783966408 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/-/main/Protected%20(3).lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/-/main/output-fehalf1l.lua"))()
 end
 
 --// Scp 3008
