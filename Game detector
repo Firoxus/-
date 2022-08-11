@@ -8,7 +8,7 @@ end
 
 --// Plates of fate 
 if game.PlaceId == 4783966408 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/-/main/output-fehalf1l.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/-/main/fates.lua"))()
 end
 
 --// Scp 3008
@@ -24,4 +24,14 @@ end
 --// Hood customs
 if game.PlaceId == 9825515356 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/-/main/hood%20customs"))()
+end
+
+--// Dahood modded
+if game.PlaceId == 5602055394 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/-/main/modded.lua"))()
+end
+
+--// Dahood
+if game.PlaceId == 2788229376 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/-/main/hood.lua"))()
 end
