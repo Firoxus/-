@@ -1,0 +1,32 @@
+Back = Drawing.new("Square")
+Back.Color = Color3.fromRGB(20,20,20)
+Back.Position = Vector2.new(game:GetService("Workspace").CurrentCamera.ViewportSize.X/2.24, game:GetService("Workspace").CurrentCamera.ViewportSize.Y/1000)
+Back.Size = Vector2.new(180,35)
+Back.Transparency = 1
+Back.Visible = true
+Back.Filled = true
+
+Fps = Drawing.new("Text")
+Fps.Text = ""
+Fps.Color = Color3.fromRGB(200,200,200)
+Fps.Position = Vector2.new(game:GetService("Workspace").CurrentCamera.ViewportSize.X/2.22, game:GetService("Workspace").CurrentCamera.ViewportSize.Y/1000)
+Fps.Size = 30
+Fps.Visible = true
+game.Stats:WaitForChild("Network")
+game.Stats.Network:WaitForChild("ServerStatsItem")
+game.Stats.Network.ServerStatsItem:WaitForChild("Data Ping")
+
+while wait(0.1) do
+ping = string.split(string.split(game.Stats.Network.ServerStatsItem["Data Ping"]:GetValueString(), " ")[1], ".")
+fps = string.split(game.Stats.Workspace.Heartbeat:GetValueString(), ".")
+Fps.Text = "FPS "..fps[1].."  Ping "..ping[1]
+if tonumber(fps[1]) < 40 then
+Fps.Color = Color3.fromRGB(200,200,200)
+end
+if tonumber(ping[1]) and  tonumber(ping[1]) > 400 then
+Fps.Color = Color3.fromRGB(200,200,200)
+end
+if tonumber(fps[1]) > 40 and tonumber(ping[1]) and tonumber(ping[1]) < 400 then
+Fps.Color = Color3.fromRGB(200,200,200)
+end
+end 
