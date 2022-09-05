@@ -10,7 +10,7 @@ local function getNetlessVelocity(realPartVelocity)
     end
     return v3_net + realPartVelocity * v3_808
 end
-local simradius = "ssr" --simulation radius (net bypass) method
+local simradius = "shp" --simulation radius (net bypass) method
 --"shp" - sethiddenproperty
 --"ssr" - setsimulationradius
 --false - disable
