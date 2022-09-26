@@ -1,5 +1,3 @@
---Boronide™ Obfuscation, v0.6.3
-
 local Y,p,S=nil,nil,nil([[
 
 	discord.gg/gAnnsE8WWF
