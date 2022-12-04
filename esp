@@ -8,7 +8,7 @@ local ESP = {
     Names = true,
     TeamColor = false,
     Thickness = 2,
-    AttachShift = 1,
+    AttachShift = 0,
     TeamMates = true,
     Players = true,
     
