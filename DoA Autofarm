@@ -1,0 +1,27 @@
+--=DO NOT EDIT=--
+if getgenv().ChatAdvertiser == true then
+    while ChatAdvertiser == true do wait()
+     local A_1 = "Hi! Dont worry i wont do anything im just one of Firoxs farming bots :)"
+local A_2 = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(A_1, A_2)
+task.wait(ChatAdvertiserCooldown)
+end
+end
+
+if getgenv.Cappedfps == true then
+    setfpscap(CappedfpsValue)
+end
+
+if getgenv().Disable3dRendering == true then
+game:GetService("RunService"):Set3dRenderingEnabled(false)
+end
+
+if getgenv().Autofarm == true then
+local ts = game:GetService("TeleportService")
+local p = game:GetService("Players").LocalPlayer
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Games/Dawn%20of%20Aurora/AutoFarm.lua"))()
+wait(3600)
+ts:Teleport(game.PlaceId, p)
+end
+--=DO NOT EDIT end=--
