@@ -22,6 +22,7 @@ Crasher.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
 Crasher.BorderColor3 = Color3.fromRGB(255, 255, 255)
 Crasher.Position = UDim2.new(0.133531153, 0, 0.153086424, 0)
 Crasher.Size = UDim2.new(0, 182, 0, 60)
+Crasher.Draggable = true
 
 logo2.Name = "logo2"
 logo2.Parent = Crasher
