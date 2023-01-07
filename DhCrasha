@@ -22,6 +22,7 @@ Crasher.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
 Crasher.BorderColor3 = Color3.fromRGB(255, 255, 255)
 Crasher.Position = UDim2.new(0.133531153, 0, 0.153086424, 0)
 Crasher.Size = UDim2.new(0, 182, 0, 60)
+Crasher.Active = true
 Crasher.Draggable = true
 
 logo2.Name = "logo2"
@@ -78,6 +79,7 @@ Frame.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
 Frame.BorderColor3 = Color3.fromRGB(255, 255, 255)
 Frame.Position = UDim2.new(0.0801186934, 0, 0.156790122, 0)
 Frame.Size = UDim2.new(0, 160, 0, 256)
+Frame.Active = true
 Frame.Draggable = true
 
 TextLabel.Parent = Frame
