@@ -1,0 +1,283 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local startcrash = Instance.new("TextButton")
+
+local Crasher = Instance.new("Frame")
+local logo2 = Instance.new("TextLabel")
+local logo = Instance.new("TextLabel")
+local OutOfLabel = Instance.new("TextLabel")
+local discord = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Crasher.Name = "Crasher"
+Crasher.Parent = ScreenGui
+Crasher.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Crasher.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Crasher.Position = UDim2.new(0.133531153, 0, 0.153086424, 0)
+Crasher.Size = UDim2.new(0, 182, 0, 60)
+
+logo2.Name = "logo2"
+logo2.Parent = Crasher
+logo2.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+logo2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+logo2.Size = UDim2.new(0, 182, 0, 16)
+logo2.Font = Enum.Font.LuckiestGuy
+logo2.Text = ""
+logo2.TextColor3 = Color3.fromRGB(255, 255, 255)
+logo2.TextSize = 14.000
+logo2.TextStrokeTransparency = 0.000
+
+logo.Name = "logo"
+logo.Parent = Crasher
+logo.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+logo.BackgroundTransparency = 1.000
+logo.BorderColor3 = Color3.fromRGB(255, 255, 255)
+logo.BorderSizePixel = 5
+logo.Size = UDim2.new(0, 182, 0, 16)
+logo.Font = Enum.Font.LuckiestGuy
+logo.Text = "RebornDH crasher"
+logo.TextColor3 = Color3.fromRGB(255, 255, 255)
+logo.TextSize = 14.000
+
+OutOfLabel.Name = "OutOfLabel"
+OutOfLabel.Parent = Crasher
+OutOfLabel.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+OutOfLabel.BorderColor3 = Color3.fromRGB(255, 255, 255)
+OutOfLabel.Position = UDim2.new(0, 0, 0.583333313, 0)
+OutOfLabel.Size = UDim2.new(0, 182, 0, 25)
+OutOfLabel.Font = Enum.Font.LuckiestGuy
+OutOfLabel.Text = "out of 1550"
+OutOfLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+OutOfLabel.TextSize = 14.000
+
+discord.Name = "discord"
+discord.Parent = Crasher
+discord.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+discord.BorderColor3 = Color3.fromRGB(255, 255, 255)
+discord.Position = UDim2.new(0, 0, 0.266666681, 0)
+discord.Size = UDim2.new(0, 182, 0, 19)
+discord.Font = Enum.Font.LuckiestGuy
+discord.Text = "discord.gg/plutohub"
+discord.TextColor3 = Color3.fromRGB(255, 255, 255)
+discord.TextSize = 14.000
+
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Frame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.0801186934, 0, 0.156790122, 0)
+Frame.Size = UDim2.new(0, 160, 0, 256)
+Frame.Draggable = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+TextLabel.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Size = UDim2.new(0, 160, 0, 19)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "RebornDH crasher"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+TextLabel_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.Position = UDim2.new(0, 0, 0.07421875, 0)
+TextLabel_2.Size = UDim2.new(0, 160, 0, 18)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "By Firox for Clickxy"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+TextLabel_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.Position = UDim2.new(0, 0, 0.23828125, 0)
+TextLabel_3.Size = UDim2.new(0, 160, 0, 20)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Requirements:"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+TextLabel_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.Position = UDim2.new(0, 0, 0.31640625, 0)
+TextLabel_4.Size = UDim2.new(0, 160, 0, 20)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "100k Dahood cash"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+
+TextLabel_5.Parent = Frame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+TextLabel_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.Position = UDim2.new(0, 0, 0.39453125, 0)
+TextLabel_5.Size = UDim2.new(0, 160, 0, 17)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Need to be in a dahood crew"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+
+startcrash.Name = "startcrash"
+startcrash.Parent = Frame
+startcrash.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+startcrash.BorderColor3 = Color3.fromRGB(255, 255, 255)
+startcrash.Position = UDim2.new(0.125, 0, 0.6484375, 0)
+startcrash.Size = UDim2.new(0, 120, 0, 50)
+startcrash.Font = Enum.Font.SourceSans
+startcrash.Text = "Start crashing"
+startcrash.TextColor3 = Color3.fromRGB(255, 255, 255)
+startcrash.TextSize = 14.000
+
+local Player = game.Players.LocalPlayer
+function announce(title,text,time)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = title;
+        Text = text;
+        Duration = time;
+    })
+end
+startcrash.MouseButton1Click:Connect(function()
+    if Player.DataFolder.Information:FindFirstChild('Crew') and tonumber(Player.DataFolder.Information.Crew.Value) then
+        if Player.DataFolder.Currency.Value >= 80000 then
+    
+
+            
+            local vu = game:GetService("VirtualUser") -- AntiAfk
+                game:GetService("Players").LocalPlayer.Idled:connect(function()
+                vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+                wait(1)
+                vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+            end)
+            
+            
+            local function DeleteChar()
+                for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+                    if v:IsA('MeshPart') or v:IsA('Part') or v:IsA('Accessory') then
+                        v:Destroy()
+                    end
+                end
+                game.Players.LocalPlayer.Character.Name = 'Deleted'
+            end
+            
+            function announce(title,text,time)
+                game.StarterGui:SetCore("SendNotification", {
+                    Title = title;
+                    Text = text;
+                    Duration = time;
+                })
+            end
+            
+            if not Player.Character then
+                Player.CharacterAdded:Wait()
+            end
+            
+            for i,v in pairs(game.Workspace.Ignored.Shop:GetChildren()) do
+                if not string.find(v.Name, 'Ammo') and not string.find(v.Name, 'Armor') and not string.find(v.Name, 'Phone') and not string.find(v.Name,'Bike') and not string.find(v.Name, 'Mask') and not string.find(v.Name, 'SG') and not string.find(v.Name,'Moveset') then
+                    local Name = string.gsub(string.split(v.Name, '-')[1], ' ', '')
+                    local Owned = false
+                    if not Player.Character:FindFirstChild(Name) and not Player.Backpack:FindFirstChild(Name) then
+                        repeat
+                            Player.Character.HumanoidRootPart.CFrame = v.Head.CFrame
+                            fireclickdetector(v:FindFirstChildOfClass('ClickDetector'))
+                            for i,W in pairs(Player.Backpack:GetChildren()) do
+                                if string.gsub(W.Name, ' ', '') == Name then
+                                    Owned = true
+                                end
+                            end
+                            task.wait()
+                        until Owned == true
+                    end
+                end
+            end
+            
+            local Count
+            
+            local ScreenGui = Instance.new("ScreenGui")
+            local TextLabel = Instance.new("TextLabel")
+            
+            ScreenGui.Parent = game.CoreGui
+            ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+            
+            local Crew = tonumber(Player.DataFolder.Information.Crew.Value)
+            repeat
+                Player.Character.HumanoidRootPart.CFrame = CFrame.new(game:GetService("Workspace").Ignored.Shop["[Flowers] - $5"].Head.Position.X, game:GetService("Workspace").Ignored.Shop["[Flowers] - $5"].Head.Position.Y - 5, game:GetService("Workspace").Ignored.Shop["[Flowers] - $5"].Head.Position.Z)
+                fireclickdetector(game:GetService("Workspace").Ignored.Shop["[Flowers] - $5"].ClickDetector)
+                Count = 0 
+                for i,v in pairs(game:GetService("Workspace").Ignored.ItemsDrop:GetDescendants()) do
+                    local s,e = pcall(function()
+                        if v:IsA('Tool') then
+                            repeat 
+                                Player.Character.HumanoidRootPart.CFrame = CFrame.new(v.Parent.Position)  
+                                task.wait()
+                            until not v
+                        end
+                    end) if e then print(e) end
+                end
+                
+            
+            
+                if Crew then
+                    game:GetService("ReplicatedStorage").MainEvent:FireServer("JoinCrew",tostring(Crew))
+                    for i,v in pairs(Player.Backpack:GetChildren()) do
+                        if v:IsA('Tool') and v.Name == '[SprayCan]' then
+                            v.Parent = Player.Character
+                        end
+                    end
+                    game:GetService("ReplicatedStorage").MainEvent:FireServer("JoinCrew",tostring(Crew))
+                    task.wait()
+                    game:GetService("ReplicatedStorage").MainEvent:FireServer("LeaveCrew")
+                end
+                
+                for i,v in pairs(Player.Backpack:GetChildren()) do
+                    if v:IsA('Tool') then
+                        Count = Count + 1
+                    end
+                end
+                for i,v in pairs(Player.Character:GetChildren()) do
+                    if v:IsA('Tool') then
+                        Count = Count + 1
+                    end   
+                end
+                OutOfLabel.Text = tostring(Count) .. " out of 1550"
+                task.wait()
+            until Count >= 1550
+            
+            wait(1)
+            Player.Character.HumanoidRootPart.CFrame = CFrame.new(0,99999999,0)
+            wait(3)
+            
+            for i,v in pairs(Player.Backpack:GetChildren()) do
+                if v:IsA('Tool') then
+                    v.Parent = Player.Character
+                end
+            end
+                
+            local T = 0
+            repeat
+                for i,v in pairs(Player.Backpack:GetChildren()) do
+                    if v:IsA('Tool') then
+                        v.Parent = Player.Character
+                    end
+                end
+                T = T + 1
+            until T >= 35
+            
+            DeleteChar()
+        else
+            announce('You need atleast 100k to use this', 'sry :(', 10)
+        end
+    else
+        announce('Please join a DH Crew and try again', '(person button on the bottom left)', 10)
+    end
+end)
